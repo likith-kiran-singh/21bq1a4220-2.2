@@ -29,3 +29,14 @@ if __name__=="__main__":
     proc=[[1,10,1],[2,5,0],[3,8,1]]
     n=3
     priorityScheduling(proc,n)
+"""
+Order in which processes gets executed
+1  3  2  
+ Processes  BT  WT  TAT 
+   1         10          0       28
+   3         8       10          8
+   2         5       18          15
+
+ avg wt=9.333333
+ avg tat= 17.0
+"""
