@@ -17,8 +17,8 @@ def findavgTime(proc,n):
         total_wt=total_wt+wt[i]
         total_tat=total_tat+tat[i]
         print("  ",proc[i][0],"\t\t",proc[i][1],"\t\t",wt[i],"\t\t",tat[i])
-        print("\n avg wt=%5f"%(total_wt/n))
-        print("\n avg tat=",total_tat/n)
+    print("\n avg wt=%5f"%(total_wt/n))
+    print("\n avg tat=",total_tat/n)
 def priorityScheduling(proc,n):
     proc=sorted(proc,key=lambda proc:proc[2],reverse=True)
     print("Order in which processes gets executed")
