@@ -22,3 +22,23 @@ for i in range(n):
     wt  += l[i][3]-l[i][1]
 print("avg TAT:",tat/n)
 print("avg WT:",wt/n)
+
+
+"""
+Output :
+Enter no. of processes : 5
+Enter the Processes-ID,Burst Time,Priority : 
+        1 10 3
+        2 1 1
+        3 2 4
+        4 1 5
+        5 5 2
+PID BT  Priority   AT   TAT   WT
+2     1     1     0     1    0
+5     5     2     0     6    1
+1     10     3     0     16    6
+3     2     4     0     18    16
+4     1     5     0     19    18
+avg TAT: 12.0
+avg WT: 8.2
+"""
