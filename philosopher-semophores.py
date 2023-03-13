@@ -58,3 +58,22 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
+    
+'''
+Philosopher 1 is hungry.
+Philosopher 1 starts eating. 
+Philosopher 0 is hungry.Philosopher 3 is hungry.
+Philosopher 3 starts eating. Philosopher 2 is hungry.
+Philosopher 4 is hungry.Philosopher 0 swaps forks.
+Philosopher 1 finishes eating and leaves to think.
+Now we're finishing.
+Philosopher 2 swaps forks.
+Philosopher 0 starts eating.
+Philosopher 3 finishes eating and leaves to think.
+Philosopher 4 swaps forks.
+Philosopher 0 finishes eating and leaves to think.
+Philosopher 1 is hungry.
+
+
+'''
